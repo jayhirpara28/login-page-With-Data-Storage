@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/bc4a4f572d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+    <div class="main-box">
+        <div>
+
+            <h2 class="login">Login</h2>
+
+            <form id="form" name="myForm" method="get" class="login-info" action="#" onsubmit="validateForm() ;return false">
+
+                <!-- Main Login Details -->
+
+                <p class="l-g">
+
+                    <!-- <div id=""> -->
+
+                    <i id="lock" class="fa-regular fa-user"></i>
+                    <small>Email:</small>
+                    <input class="txt" id="email" type="text" name="email" placeholder="Email">
+                    <small id="numloc"></small>
+                    <br><br>
+
+                    <i id="lock" class="far fa-eye"></i>
+                    <small>Password:</small>
+                    <input class="txt" id="pass" name="pass" type="password" placeholder="Password">
+                    <small id="numlock"></small>
+                    <br><br>
+                </p>
+
+                <!-- Forgot Password -->
+
+                <a href="#" target="blank" class="forgot-pass">Forgot Password ?</a> <br>
+
+                <!-- Login Button -->
+
+                <input type="submit" value="Login" onclick="saveData()">
+
+
+
+
+                <!-- Social Container -->
+
+                <p class="signup1">Or SignUp Using</p>
+                <div class="social-container">
+
+                    <a href="" target="_blank" class="social"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="social"><i class="fa-brands fa-twitter"></i> </a>
+                    <a href="" class="social"><i class="fa-brands fa-google"></i></a>
+                </div>
+
+                <!-- Sign Up Box -->
+
+                <div class="signup2">
+                    <p>Or SignUp Using</p>
+                    <a href="index2.html" target="blank" id="signup-link">SignUp</a>
+
+                </div>
+
+
+        </div>
+    </div>
+    </form>
+
+</body>
+
+</html>
